@@ -14,15 +14,27 @@ h1 {
 
 
 /* Make all <h2> elements orange */
+h2 {
+  color: orange;
+}
 
 
-/* Make all <li> elements blue(pick your own hexadecimal blue)*/ 
+/* Make all <li> elements blue(pick your own hexadecimal blue)*/
+li {
+  color: #0000FF;
+} 
 
 
 /*Change the background on every paragraph to be yellow*/
+p {
+  background: yellow;
+}
 
 
 /*Make all inputs have a 3px red border*/
+input {
+  border: 3px red solid;
+}
 
 
 /* Give everything with the class 'hello' a white background*/
