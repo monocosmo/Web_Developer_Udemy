@@ -1,0 +1,15 @@
+html {
+  background: orange;
+}
+
+li {
+  border: 1px solid purple;
+}
+
+#thing3 {
+  background: white;
+}
+
+.completed {
+  text-decoration: line-through;
+}
