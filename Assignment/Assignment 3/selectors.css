@@ -33,7 +33,7 @@ p {
 
 /*Make all inputs have a 3px red border*/
 input {
-  border: 3px red solid;
+  border: 3px solid red;
 }
 
 
@@ -56,12 +56,21 @@ div p {
 
 
 /*Make only inputs with type 'text' have a gray background*/
+input[type="text"] {
+  background: gray;
+}
 
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
+div:nth-of-type(3) p {
+  background: pink;
+}
 
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
+div:nth-of-type(3) p:nth-of-type(2) {
+  border: 5px solid white;
+}
 
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
