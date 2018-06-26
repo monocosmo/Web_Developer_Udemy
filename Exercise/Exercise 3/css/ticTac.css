@@ -1,0 +1,21 @@
+/*css file of ticTac.html*/
+body {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  padding: 50px;
+}
+
+.row2 td {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.col {
+  border-right: 2px solid black;
+}
