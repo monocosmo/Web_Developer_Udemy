@@ -1,0 +1,29 @@
+/*css file of blog.html*/
+body {
+  font-family: Source Sans Pro, sans-serif;
+}
+
+#blog {
+  width: 50%;
+  padding: 20px;
+  border: 20px solid #bdc3c7;
+  margin: 20px auto;
+}
+
+.date {
+  text-transform: uppercase;
+  color: #3498db;
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+.para1 {
+  padding: 4px;
+  border-left: 4px solid #bdc3c7;
+}
+
+#first {
+  border-bottom: 2px solid #d3d3d3;
+}
