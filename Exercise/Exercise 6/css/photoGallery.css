@@ -16,23 +16,23 @@ body {
 }
 
 #img2 {
-  background-image: url(https://raw.githubusercontent.com/monocosmo/Web_Developer_Udemy/master/Exercise/Exercise%206/pics/2.JPG);
+  background-image: url("https://raw.githubusercontent.com/monocosmo/Web_Developer_Udemy/master/Exercise/Exercise%206/pics/2.JPG");
 }
 
 #img3 {
-  background-image: url(https://raw.githubusercontent.com/monocosmo/Web_Developer_Udemy/master/Exercise/Exercise%206/pics/3.JPG);
+  background-image: url("https://raw.githubusercontent.com/monocosmo/Web_Developer_Udemy/master/Exercise/Exercise%206/pics/3.JPG");
 }
 
 #img4 {
-  background-image: url(https://raw.githubusercontent.com/monocosmo/Web_Developer_Udemy/master/Exercise/Exercise%206/pics/4.JPG);
+  background-image: url("https://raw.githubusercontent.com/monocosmo/Web_Developer_Udemy/master/Exercise/Exercise%206/pics/4.JPG");
 }
 
 #img5 {
-  background-image: url(https://raw.githubusercontent.com/monocosmo/Web_Developer_Udemy/master/Exercise/Exercise%206/pics/11.JPG);
+  background-image: url("https://raw.githubusercontent.com/monocosmo/Web_Developer_Udemy/master/Exercise/Exercise%206/pics/11.JPG");
 }
 
 #img6 {
-  background-image: url(https://raw.githubusercontent.com/monocosmo/Web_Developer_Udemy/master/Exercise/Exercise%206/pics/12.JPG);
+  background-image: url("https://raw.githubusercontent.com/monocosmo/Web_Developer_Udemy/master/Exercise/Exercise%206/pics/12.JPG");
 }
 
 .image {
