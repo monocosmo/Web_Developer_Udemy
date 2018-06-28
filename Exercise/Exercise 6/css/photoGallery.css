@@ -12,7 +12,7 @@ body {
 }
 
 #img1 {
-  background-image: url(https://raw.githubusercontent.com/monocosmo/Web_Developer_Udemy/master/Exercise/Exercise%206/pics/1.JPG);
+  background-image: url("https://raw.githubusercontent.com/monocosmo/Web_Developer_Udemy/master/Exercise/Exercise%206/pics/1.JPG");
 }
 
 #img2 {
