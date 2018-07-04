@@ -6,8 +6,8 @@ var inputScore = document.querySelector("input");
 var winningScoreDisplay = document.querySelector("p span");
 
 inputScore.addEventListener("change", function(){
-  winningScoreDisplay.textContent = inputScore.value;
-  winningScore = Number(inputScore.value);
+  winningScoreDisplay.textContent = this.value;
+  winningScore = Number(this.value);
 })
 
 
