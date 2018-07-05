@@ -1,0 +1,31 @@
+/*css file of colorGame.html*/
+body {
+  background-color: #232323;
+}
+
+h1 {
+  color: white;
+}
+
+#stripe {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.square {
+  width: 30%;
+  background-color: purple;
+  padding-top: 30%;
+  margin: 1.66%;
+  float: left;
+}
+
+.selected {
+  background-color: blue;
+}
