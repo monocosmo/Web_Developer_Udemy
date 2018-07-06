@@ -1,17 +1,18 @@
 /*css file of colorGame.html*/
 body {
   background-color: #232323;
-  margin: 0;
-  /*fix the small blank on the body edge*/
+  margin-top:50px;
+  /*fix bootstrap navbar overlap*/
   font-family: "Roboto", sans-serif;
 }
 
 h1 {
+  font-size:1.75em;
   color: white;
   text-align: center;
   line-height: 1.1;
   font-weight: normal;
-  background-color: steelblue;
+  background-color: #CD853F;
   text-transform: uppercase;
   padding: 20px 0;
   margin: 0;
@@ -27,12 +28,13 @@ h1 {
   font-weight: 700;
   font-size: inherit;
   letter-spacing: 1px;
-  color: steelblue;
+  color: #CD853F;
   width: 20%;
+  text-transform: uppercase;
 }
 
 #stripe {
-  background-color: white;
+  background-color: #FDF5E6;
   height: 30px;
   text-align: center;
 }
@@ -44,7 +46,6 @@ h1 {
 
 .square {
   width: 30%;
-  background-color: purple;
   padding-top: 30%;
   margin: 1.66%;
   float: left;
@@ -58,7 +59,7 @@ h1 {
 
 .selected {
   color: white;
-  background-color: steelblue;
+  background-color: #CD853F;
 }
 
 button {
@@ -67,7 +68,7 @@ button {
   font-size: inherit;
   letter-spacing: 1px;
   height: 100%;
-  color: steelblue;
+  color: #CD853F;
   border: none;
   background: none;
   outline: none;
@@ -78,5 +79,5 @@ button {
 
 button:hover {
   color: white;
-  background-color: steelblue;
+  background-color: #CD853F;
 }

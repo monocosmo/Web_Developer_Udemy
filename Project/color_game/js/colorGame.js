@@ -1,8 +1,8 @@
 // js file of colorGame.html
 var numSquares = 6;
-var squares = document.querySelectorAll(".square");
 var colors = randomColorsArray(6);
 var pickedColor = pickColor();
+var squares = document.querySelectorAll(".square");
 var colorDisplay = document.getElementById("colorDisplay");
 var message = document.getElementById("message");
 var h1 = document.querySelector("h1");
@@ -52,7 +52,7 @@ function reset(){
   colors = randomColorsArray(numSquares);  // random color array
   pickedColor = pickColor();  // pick a new random color
   colorDisplay.textContent = pickedColor;
-  h1.style.backgroundColor = "steelblue";
+  h1.style.backgroundColor = "#CD853F";
   restButton.textContent = "New Colors"
   message.textContent = "";
   // reset certain content on page
