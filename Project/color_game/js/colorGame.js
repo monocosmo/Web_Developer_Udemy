@@ -1,4 +1,5 @@
 // js file of colorGame.html
+var numSquares = 6;
 var colors = randomColorsArray(6);
 var squares = document.querySelectorAll(".square");
 var pickedColor = pickColor();
@@ -12,7 +13,8 @@ var hardBtn = document.querySelector("#hardBtn");
 easyBtn.addEventListener("click", function(){
   easyBtn.classList.add("selected");
   hardBtn.classList.remove("selected");
-  colors = randomColorsArray(3);
+  numSquares = 3;
+  colors = randomColorsArray(numSquares);
   pickedColor = pickColor();
   colorDisplay.textContent = pickedColor;
   for(var i = 0; i < squares.length; i++){
@@ -27,7 +29,8 @@ easyBtn.addEventListener("click", function(){
 hardBtn.addEventListener("click", function(){
   hardBtn.classList.add("selected");
   easyBtn.classList.remove("selected");
-  colors = randomColorsArray(6);
+  numSquares = 6;
+  colors = randomColorsArray(numSquares);
   pickedColor = pickColor();
   colorDisplay.textContent = pickedColor;
   for(var i = 0; i < squares.length; i++){
@@ -37,13 +40,14 @@ hardBtn.addEventListener("click", function(){
 });
 
 restButton.addEventListener("click", function(){
-  colors = randomColorsArray(6);
+  colors = randomColorsArray(numSquares);
   pickedColor = pickColor();
   colorDisplay.textContent = pickedColor;
   for(var i = 0; i < squares.length; i++){
     squares[i].style.backgroundColor = colors[i];
   }
-  h1.style.backgroundColor = "#232323";
+  h1.style.backgroundColor = "steelblue";
+  message.textContent = "";
 })
 
 colorDisplay.textContent = pickedColor;
