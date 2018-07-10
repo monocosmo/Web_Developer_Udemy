@@ -1,5 +1,12 @@
 // Check off todos by clicking
 $("li").click(function(){
-  $(this).css("color", "gray");
-  $(this).css("text-decoration", "line-through");
+  $(this).toggleClass("completed");
 });
+
+// Delete todos
+$("span").click(function(event){
+  $(this).parent().fadeOut(500, function(){
+    $(this).remove();
+  });
+  event.stopPropagation(); // Stop bubbling
+})
